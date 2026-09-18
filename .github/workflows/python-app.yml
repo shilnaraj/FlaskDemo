@@ -52,4 +52,5 @@ jobs:
 
       - name: Run tests
         run: |
-          python -c "from app import app; print('Flask application test passed')"
+          #python -c "from app import app; print('Flask application test passed')"
+          pytest
